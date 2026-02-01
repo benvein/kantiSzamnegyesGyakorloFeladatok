@@ -1,5 +1,5 @@
 export type Four = {
-  index: number;
+  index?: number;
   first: number;
   second: number;
   third: number;

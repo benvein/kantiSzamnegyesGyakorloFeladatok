@@ -4,12 +4,12 @@ import { useEffect, useState } from "react";
 import apiClient from "../apis/apiClient";
 
 const OneFour = () => {
-  const { id } = useParams();
+  const { index } = useParams();
   const [four, setFour] = useState<Four>();
 
   useEffect(() => {
     apiClient
-      .get(`/fours/${id}`)
+      .get(`/fours/${index}`)
       .then((res) => setFour(res.data))
       .catch((err) => console.log(err));
   }, []);

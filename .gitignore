@@ -6,3 +6,6 @@ server/node_modules
 console/ConsoleApp1/.vs
 console/ConsoleApp1/ConsoleApp1/obj
 console/ConsoleApp1/ConsoleApp1/bin
+dtApp/WinFormsApp1/.vs
+dtApp/WinFormsApp1/WinFormsApp1/obj
+dtApp/WinFormsApp1/WinFormsApp1/bin
